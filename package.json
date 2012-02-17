@@ -14,12 +14,16 @@
     "node": "~0.6.10"
   },
   "dependencies": {
+    "futures": ">=2.1.0",
     "optimist": ">= 0.3.1",
-    "ormnomnom": ">=0.0.8",
+    "orm": ">=0.1.8",
     "xml2object": ">=0.0.0",
     "winston": ">=0.5.9"
   },
   "devDependencies": {},
-  "optionalDependencies": {},
+  "optionalDependencies": {
+    "mysql": ">=0.9.5",
+    "pg": ">=0.6.10"
+  },
   "preferGlobal": true
 }
