@@ -12,7 +12,10 @@
   "engines": {
     "node": "~0.6.10"
   },
-  "dependencies": {},
+  "dependencies": {
+    "xml2object": ">=0.0.0",
+    "ormnomnom": ">=0.0.8"
+  },
   "devDependencies": {},
   "optionalDependencies": {}
 }
