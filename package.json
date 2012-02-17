@@ -8,14 +8,18 @@
     "type": "git",
     "url": "git://github.com/emberfeather/node-p2pxml.git"
   },
-  "main": "lib/p2pxml.js",
+  "main": "./lib/p2pxml.js",
+  "bin": "./lib/p2pxml.js",
   "engines": {
     "node": "~0.6.10"
   },
   "dependencies": {
+    "optimist": ">= 0.3.1",
+    "ormnomnom": ">=0.0.8",
     "xml2object": ">=0.0.0",
-    "ormnomnom": ">=0.0.8"
+    "winston": ">=0.5.9"
   },
   "devDependencies": {},
-  "optionalDependencies": {}
+  "optionalDependencies": {},
+  "preferGlobal": true
 }
